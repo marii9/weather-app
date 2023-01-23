@@ -2,7 +2,8 @@
 
 
 
-## Description This application is a weather forecast tool that allows users to search for the forecast of a specific city. When the page loads, the application checks for any previously stored cities in the user's local storage. If any are found, they are displayed on the page and can be clicked on to view their forecast. When the user searches for a new city, the application checks if the city has already been stored and if not, it creates a new element for the city and adds it to the local storage. The forecast information is obtained from the OpenWeatherMap API and includes the date, temperature, description, humidity, and wind speed. Additionally, it includes a feature to show the temperature in Fahrenheit.
+## Description
+This application is a weather forecast tool that allows users to search for the forecast of a specific city. When the page loads, the application checks for any previously stored cities in the user's local storage. If any are found, they are displayed on the page and can be clicked on to view their forecast. When the user searches for a new city, the application checks if the city has already been stored and if not, it creates a new element for the city and adds it to the local storage. The forecast information is obtained from the OpenWeatherMap API and includes the date, temperature, description, humidity, and wind speed. Additionally, it includes a feature to show the temperature in Fahrenheit.
 
 
 ## Acceptance Criteria 
