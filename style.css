@@ -72,7 +72,6 @@ h2{
     left: 10px;
   }
 #city-name, #search-button {
-    position: absolute; /* make the input field and search button positioned elements */
-    top: 100%; /* position the input field and search button just under "newWay" */
-    left: 0; /* align the input field and search button to the left of "newWay" */
+    position: relative;
+    margin-top: -50px; /* move the input field up by 10px */
   }
