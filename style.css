@@ -13,17 +13,6 @@ h2{
   flex: 1;
 }
 
-#newWay{
-  display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em;
-    font-size: 1.2em;
-    color: white;
-    background-color: lightskyblue;
-    border-radius: 5px;
-    margin-bottom: 1em;
-}
 
 
 .forecast-item {
@@ -69,4 +58,8 @@ h2{
     position: fixed;
     top: 10px;
     left: 10px;
+  }
+  #city-name, #search-button {
+    position: relative;
+    margin-top: -70px; /* move the input field up by 10px */
   }

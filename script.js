@@ -148,24 +148,7 @@ searchBtn.on('click', function (event) {
                         }
                       });
                       
-                      // var currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
-                      // fetch(currentWeatherUrl)
-                      //   .then(res => res.json())
-                      //   .then(function (data) {
-                      //     var currentWeatherEl = $("<div>").addClass("current-weather-item");
-                      //     var currentWeatherDate = dayjs(data.dt_txt).format("MM/DD/YYYY");
-                      //     var currentWeatherTempFahrenheit = (9/5 * data.main.temp + 32).toFixed(2);
-                      //     currentWeatherEl.append($("<p>").addClass("current-date").text(currentWeatherDate));
-                      //     currentWeatherEl.append($("<p>").addClass("current-temperature").text("Temperature: " + currentWeatherTempFahrenheit));;
-                      //     currentWeatherEl.append($("<p>").addClass("current-description").text(data.weather[0].description));
-                      //     currentWeather.append($("<img>").addClass("current-icon").attr("src", `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`));
-                      //     currentWeatherEl.append($("<p>").addClass("current-humidity").text("Humidity: " + data.main.humidity));
-                      //     currentWeatherEl.append($("<p>").addClass("current-wind").text("WindSpeed: " + data.wind.speed));
-                      //     currentWeatherEl.appendTo("#forecast");
-                      //   });
-                      // storedCities.push(city);
-                      // localStorage.setItem("cities", JSON.stringify(storedCities));
-              
+                      
 
                     });
                   }}});
@@ -175,4 +158,4 @@ searchBtn.on('click', function (event) {
 
               
 
-        
+       
