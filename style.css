@@ -23,6 +23,7 @@ h2{
     background-color: lightskyblue;
     border-radius: 5px;
     margin-bottom: 1em;
+  position: relative; 
 }
 
 
@@ -69,4 +70,9 @@ h2{
     position: fixed;
     top: 10px;
     left: 10px;
+  }
+#city-name, #search-button {
+    position: absolute; /* make the input field and search button positioned elements */
+    top: 100%; /* position the input field and search button just under "newWay" */
+    left: 0; /* align the input field and search button to the left of "newWay" */
   }
