@@ -128,7 +128,7 @@ searchBtn.on('click', function (event) {
                         $("#forecast").empty();
                         var previousForecastDate;
                         for (let i = 0; i < data.list.length; i++) {
-                          var forecast = data.list[0];
+                          var forecast = data.list[i];
                           var forecastDate = dayjs(forecast.dt_txt).format("MM/DD/YYYY");
                           if (forecastDate !== previousForecastDate) {
                               previousForecastDate = forecastDate;
